@@ -1,0 +1,14 @@
+logging:
+  path: C:\xqh\
+  file:
+    max-size: 1MB
+  level:
+    root: info
+    com:
+      ictehi:
+        project_logging:
+          config: warn
+  pattern:
+    console: "%clr(%d{yyyy-MM-dd}){blue} [%thread] %clr(%-5p) %clr(%logger) - %msg%n"
+    file: "%d{yyyy/MM/dd-HH:mm} [%thread] %-5level %logger- %msg%n"
+
